@@ -16,8 +16,6 @@ if (!isset($_SESSION['cards'])) {
 </head>
 <?php
 
-
-
 // flash handling
 $flash = $_SESSION['flash'] ?? null;
 unset($_SESSION['flash']);
